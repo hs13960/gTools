@@ -25,7 +25,7 @@ func GetLocalIP() (string, error){
 
 func GetHostName() string{
 	name, _ := os.Hostname()
-	return "v1.0.1" + name
+	return "v1.0.2" + name
 }
 
 func main(){
